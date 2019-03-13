@@ -1,0 +1,13 @@
+value:
+  id: '1'
+  firstName: testFirstName
+  middleName: ''
+  lastName: testLastName
+  dob: '1992-01-16'
+  address: 'Rm123, 1/F, Test Building, Test Street, Test District, Hong Kong'
+  email: testEmail@test.com
+  phones:
+    - phoneNum: '12345678'
+      phoneType: HOME
+    - phoneNum: '23456789'
+      phoneType: MOBILE

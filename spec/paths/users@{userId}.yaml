@@ -1,0 +1,18 @@
+get:
+  description: Retrieve a specific user by userId
+  parameters:
+    - in: path
+      name: userId
+      schema:
+        type: string
+      required: true
+  responses:
+    '200':
+      description: OK
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/GetUsersResponse'
+          examples:
+            Example01:
+              $ref: '#/components/examples/GetUserResponseExample'

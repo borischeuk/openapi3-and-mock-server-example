@@ -1,0 +1,31 @@
+type: object
+properties:
+  id:
+    type: string
+    description: user id
+  firstName:
+    type: string
+  middleName:
+    type: string
+  lastName:
+    type: string
+  dob:
+    type: string
+    format: date
+  address:
+    type: string
+  email:
+    type: string
+  phones:
+    type: array
+    items:
+      type: object
+      properties:
+        phoneNum:
+          type: string
+        phoneType:
+          type: string
+          enum:
+            - HOME
+            - MOBILE
+            - BUSINESS

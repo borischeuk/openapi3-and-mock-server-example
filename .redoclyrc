@@ -1,0 +1,7 @@
+
+apiTitle: OpenAPI 3 and Mock Server Example
+splitSpec: true
+codeSamples: false
+swaggerUI: true
+travis: false
+oasVersion: 3.0.0
